@@ -14,4 +14,9 @@ public class MenuInicial : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
     }
+
+    public void MenuPrincipal()
+    {
+        SceneManager.LoadScene(0);
+    }
 }

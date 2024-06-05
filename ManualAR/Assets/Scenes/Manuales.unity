@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 127747437}
   - component: {fileID: 127747436}
   - component: {fileID: 127747435}
+  - component: {fileID: 127747439}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -225,6 +226,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &127747439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 127747434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acf87b8fa699ce04c9ffc7be261af827, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &135402648
 GameObject:
   m_ObjectHideFlags: 0
@@ -307,7 +320,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 135402651}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 127747439}
+        m_TargetAssemblyTypeName: MenuInicial, Assembly-CSharp
+        m_MethodName: MenuPrincipal
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &135402651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -492,7 +517,7 @@ GameObject:
   - component: {fileID: 712451540}
   - component: {fileID: 712451539}
   m_Layer: 5
-  m_Name: Image
+  m_Name: LegoBatman
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -514,7 +539,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -50.666, y: 164}
+  m_AnchoredPosition: {x: -62, y: 169}
   m_SizeDelta: {x: 101.3319, y: 68.0352}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &712451539
