@@ -12,7 +12,7 @@ public class MenuInicial : MonoBehaviour
 
     public void Manuales()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+        SceneManager.LoadScene(2);
     }
 
     public void MenuPrincipal()
