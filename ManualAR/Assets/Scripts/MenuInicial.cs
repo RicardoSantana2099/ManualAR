@@ -19,4 +19,9 @@ public class MenuInicial : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
+
+    public void LegoBatman()
+    {
+        SceneManager.LoadScene(3);
+    }
 }
