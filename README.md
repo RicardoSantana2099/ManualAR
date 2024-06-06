@@ -16,7 +16,7 @@ Recuerda que es una aplicación para celular, se encuentra en la siguiente direc
 
 [ManualAR/Assets/Aplicación](https://github.com/RicardoSantana2099/ManualAR/tree/a7193495212d3ec589fcce1b93c305de4d8ebbff/ManualAR/Assets/Aplicaci%C3%B3n)
 
-# Usa el manual para que funcione la apliación:
+# Usa el manual para que funcione la aplicación:
 
 Encuentralo en [ManualAR/ManualAR/Assets/Manuales](https://github.com/RicardoSantana2099/ManualAR/tree/a7193495212d3ec589fcce1b93c305de4d8ebbff/ManualAR/Assets/Manuales)
 
