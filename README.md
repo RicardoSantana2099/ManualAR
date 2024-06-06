@@ -14,11 +14,11 @@ Al momento de abrir la aplicación hay dos opciones Cámara y Manuales (actualme
 
 Recuerda que es una aplicación para celular, se encuentra en la siguiente dirección.
 
-ManualAR/Assets/Aplicación/ManualV0.1.apk.meta
+[ManualAR/Assets/Aplicación](https://github.com/RicardoSantana2099/ManualAR/tree/a7193495212d3ec589fcce1b93c305de4d8ebbff/ManualAR/Assets/Aplicaci%C3%B3n)
 
 # Usa el manual para que funcione la apliación:
 
-Encuentralo en ManualAR/ManualAR/Assets/Manuales/ 
+Encuentralo en [ManualAR/ManualAR/Assets/Manuales](https://github.com/RicardoSantana2099/ManualAR/tree/a7193495212d3ec589fcce1b93c305de4d8ebbff/ManualAR/Assets/Manuales)
 
 # Documentación:
 
