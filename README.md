@@ -22,6 +22,7 @@ Encuentralo en ManualAR/ManualAR/Assets/Manuales/
 
 # Documentación:
 
+https://github.com/RicardoSantana2099/ManualAR/tree/675a9a67f343028b33a6c1d76174d6f7c1edf943/ManualAR/Assets/Documentaci%C3%B3n
 Encuentra la documentación en ManualAR/ManualAR/Assets/Documentación/
 
 # Contacto:
