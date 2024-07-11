@@ -1740,6 +1740,7 @@ GameObject:
   - component: {fileID: 515216789}
   - component: {fileID: 515216788}
   - component: {fileID: 515216787}
+  - component: {fileID: 515216791}
   - component: {fileID: 515216790}
   m_Layer: 0
   m_Name: Paso06
@@ -1842,7 +1843,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 515216790}
+  mPreview: {fileID: 515216791}
 --- !u!4 &515216789
 Transform:
   m_ObjectHideFlags: 0
@@ -1860,6 +1861,19 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!114 &515216790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515216786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e2842ec9ce8fe54dba62a9bf53c1837, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 2
+--- !u!114 &515216791
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1889,6 +1903,7 @@ GameObject:
   - component: {fileID: 518002919}
   - component: {fileID: 518002918}
   - component: {fileID: 518002917}
+  - component: {fileID: 518002921}
   - component: {fileID: 518002920}
   m_Layer: 0
   m_Name: Paso02
@@ -1991,7 +2006,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 518002920}
+  mPreview: {fileID: 518002921}
 --- !u!4 &518002919
 Transform:
   m_ObjectHideFlags: 0
@@ -2009,6 +2024,19 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!114 &518002920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 518002916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e2842ec9ce8fe54dba62a9bf53c1837, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 2
+--- !u!114 &518002921
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2038,6 +2066,7 @@ GameObject:
   - component: {fileID: 608564528}
   - component: {fileID: 608564527}
   - component: {fileID: 608564526}
+  - component: {fileID: 608564530}
   - component: {fileID: 608564529}
   m_Layer: 0
   m_Name: Paso09
@@ -2140,7 +2169,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 608564529}
+  mPreview: {fileID: 608564530}
 --- !u!4 &608564528
 Transform:
   m_ObjectHideFlags: 0
@@ -2158,6 +2187,19 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!114 &608564529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 608564524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e2842ec9ce8fe54dba62a9bf53c1837, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 2
+--- !u!114 &608564530
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2322,6 +2364,7 @@ GameObject:
   - component: {fileID: 642903382}
   - component: {fileID: 642903381}
   - component: {fileID: 642903380}
+  - component: {fileID: 642903384}
   - component: {fileID: 642903383}
   m_Layer: 0
   m_Name: Paso05
@@ -2424,7 +2467,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 642903383}
+  mPreview: {fileID: 642903384}
 --- !u!4 &642903382
 Transform:
   m_ObjectHideFlags: 0
@@ -2442,6 +2485,19 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!114 &642903383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 642903378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e2842ec9ce8fe54dba62a9bf53c1837, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 2
+--- !u!114 &642903384
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2471,6 +2527,7 @@ GameObject:
   - component: {fileID: 647540002}
   - component: {fileID: 647540001}
   - component: {fileID: 647540000}
+  - component: {fileID: 647540004}
   - component: {fileID: 647540003}
   m_Layer: 0
   m_Name: Paso11
@@ -2573,7 +2630,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 647540003}
+  mPreview: {fileID: 647540004}
 --- !u!4 &647540002
 Transform:
   m_ObjectHideFlags: 0
@@ -2591,6 +2648,19 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!114 &647540003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647539998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e2842ec9ce8fe54dba62a9bf53c1837, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 2
+--- !u!114 &647540004
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3221,6 +3291,7 @@ GameObject:
   - component: {fileID: 770519207}
   - component: {fileID: 770519206}
   - component: {fileID: 770519205}
+  - component: {fileID: 770519209}
   - component: {fileID: 770519208}
   m_Layer: 0
   m_Name: Paso12
@@ -3323,7 +3394,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 770519208}
+  mPreview: {fileID: 770519209}
 --- !u!4 &770519207
 Transform:
   m_ObjectHideFlags: 0
@@ -3341,6 +3412,19 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!114 &770519208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770519203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e2842ec9ce8fe54dba62a9bf53c1837, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 2
+--- !u!114 &770519209
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3510,6 +3594,7 @@ GameObject:
   - component: {fileID: 865213831}
   - component: {fileID: 865213830}
   - component: {fileID: 865213829}
+  - component: {fileID: 865213833}
   - component: {fileID: 865213832}
   m_Layer: 0
   m_Name: Paso07
@@ -3612,7 +3697,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 865213832}
+  mPreview: {fileID: 865213833}
 --- !u!4 &865213831
 Transform:
   m_ObjectHideFlags: 0
@@ -3630,6 +3715,19 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!114 &865213832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865213827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e2842ec9ce8fe54dba62a9bf53c1837, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 2
+--- !u!114 &865213833
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3659,6 +3757,7 @@ GameObject:
   - component: {fileID: 926669682}
   - component: {fileID: 926669681}
   - component: {fileID: 926669680}
+  - component: {fileID: 926669684}
   - component: {fileID: 926669683}
   m_Layer: 0
   m_Name: Paso08
@@ -3761,7 +3860,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 926669683}
+  mPreview: {fileID: 926669684}
 --- !u!4 &926669682
 Transform:
   m_ObjectHideFlags: 0
@@ -3779,6 +3878,19 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!114 &926669683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 926669678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e2842ec9ce8fe54dba62a9bf53c1837, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 2
+--- !u!114 &926669684
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7227,6 +7339,7 @@ GameObject:
   - component: {fileID: 1584580404}
   - component: {fileID: 1584580403}
   - component: {fileID: 1584580402}
+  - component: {fileID: 1584580406}
   - component: {fileID: 1584580405}
   m_Layer: 0
   m_Name: Paso13
@@ -7329,7 +7442,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1584580405}
+  mPreview: {fileID: 1584580406}
 --- !u!4 &1584580404
 Transform:
   m_ObjectHideFlags: 0
@@ -7347,6 +7460,19 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!114 &1584580405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1584580400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e2842ec9ce8fe54dba62a9bf53c1837, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 2
+--- !u!114 &1584580406
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7654,6 +7780,7 @@ GameObject:
   - component: {fileID: 1693934555}
   - component: {fileID: 1693934554}
   - component: {fileID: 1693934553}
+  - component: {fileID: 1693934557}
   - component: {fileID: 1693934556}
   m_Layer: 0
   m_Name: Paso10
@@ -7756,7 +7883,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1693934556}
+  mPreview: {fileID: 1693934557}
 --- !u!4 &1693934555
 Transform:
   m_ObjectHideFlags: 0
@@ -7774,6 +7901,19 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!114 &1693934556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1693934552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e2842ec9ce8fe54dba62a9bf53c1837, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 2
+--- !u!114 &1693934557
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8866,6 +9006,7 @@ GameObject:
   - component: {fileID: 1833499856}
   - component: {fileID: 1833499855}
   - component: {fileID: 1833499854}
+  - component: {fileID: 1833499858}
   - component: {fileID: 1833499857}
   m_Layer: 0
   m_Name: Paso14
@@ -8968,7 +9109,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1833499857}
+  mPreview: {fileID: 1833499858}
 --- !u!4 &1833499856
 Transform:
   m_ObjectHideFlags: 0
@@ -8986,6 +9127,19 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!114 &1833499857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833499853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e2842ec9ce8fe54dba62a9bf53c1837, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 2
+--- !u!114 &1833499858
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10107,6 +10261,7 @@ GameObject:
   - component: {fileID: 2053908747}
   - component: {fileID: 2053908746}
   - component: {fileID: 2053908745}
+  - component: {fileID: 2053908749}
   - component: {fileID: 2053908748}
   m_Layer: 0
   m_Name: Paso15
@@ -10209,7 +10364,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 2053908748}
+  mPreview: {fileID: 2053908749}
 --- !u!4 &2053908747
 Transform:
   m_ObjectHideFlags: 0
@@ -10227,6 +10382,19 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!114 &2053908748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2053908743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e2842ec9ce8fe54dba62a9bf53c1837, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 2
+--- !u!114 &2053908749
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10256,6 +10424,7 @@ GameObject:
   - component: {fileID: 2057090475}
   - component: {fileID: 2057090474}
   - component: {fileID: 2057090473}
+  - component: {fileID: 2057090477}
   - component: {fileID: 2057090476}
   m_Layer: 0
   m_Name: Paso03
@@ -10358,7 +10527,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 2057090476}
+  mPreview: {fileID: 2057090477}
 --- !u!4 &2057090475
 Transform:
   m_ObjectHideFlags: 0
@@ -10376,6 +10545,19 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!114 &2057090476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057090471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e2842ec9ce8fe54dba62a9bf53c1837, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 2
+--- !u!114 &2057090477
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10405,6 +10587,7 @@ GameObject:
   - component: {fileID: 2141194287}
   - component: {fileID: 2141194286}
   - component: {fileID: 2141194285}
+  - component: {fileID: 2141194289}
   - component: {fileID: 2141194288}
   m_Layer: 0
   m_Name: Paso04
@@ -10507,7 +10690,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 2141194288}
+  mPreview: {fileID: 2141194289}
 --- !u!4 &2141194287
 Transform:
   m_ObjectHideFlags: 0
@@ -10525,6 +10708,19 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!114 &2141194288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2141194283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e2842ec9ce8fe54dba62a9bf53c1837, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 2
+--- !u!114 &2141194289
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

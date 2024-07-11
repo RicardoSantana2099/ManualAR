@@ -4,37 +4,39 @@ using UnityEngine;
 
 public class RotacionTouch : MonoBehaviour
 {
-    private Touch initialTouch = new Touch();
+    public float rotationSpeed = 2.0f;
     private bool isRotating = false;
-    public float rotationSpeed = 0.2f;
 
     private void Update()
     {
         if(Input.touchCount > 0)
         {
-            Touch currentTouch = Input.GetTouch(0);
+            Touch touch = Input.GetTouch(0);
 
-            switch(currentTouch.phase)
-            {
-                case TouchPhase.Began:
-                    initialTouch = currentTouch;
-                    isRotating = true;
-                    break;
+            Ray ray = Camera.main.ScreenPointToRay(touch.position);
+            RaycastHit hit;
 
-                    case TouchPhase.Moved:
-                    if(isRotating)
+            if (Physics.Raycast(ray, out hit))
+                {
+                if(hit.transform == transform)
+                {
+                    if(touch.phase == TouchPhase.Began)
                     {
-                        float deltaX =  initialTouch.position.x - currentTouch.position.x;
-                        float deltaY = initialTouch.position.y - currentTouch.position.y;
-                        initialTouch = currentTouch;
-                        transform.Rotate(Vector3.up, -deltaX * rotationSpeed, Space.World);
-                        transform.Rotate(Vector3.right, deltaY * rotationSpeed, Space.World);
+                        isRotating = true;
                     }
-                    break;
+                    else if (touch.phase == TouchPhase.Moved && isRotating)
+                    {
+                        float deltaX = touch.deltaPosition.x * rotationSpeed;
+                        float deltaY = touch.deltaPosition.y * rotationSpeed;
 
-                    case TouchPhase.Ended:
-                    isRotating = false;
-                    break;
+                        transform.Rotate(Vector3.up, -deltaX, Space.World);
+                        transform.Rotate(Vector3.right, deltaY, Space.World);
+                    }
+                    else if(touch.phase == TouchPhase.Ended)
+                    {
+                        isRotating= false;
+                    }
+                }
             }
         }
     }
